@@ -30,6 +30,7 @@ int main(int argc, char *argv[]) {
   if (code != SUCCESS) {
       perror("Thread join error");
   }
+  
   print_text("Parent"); 
   pthread_exit(NULL);
 }
